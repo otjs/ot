@@ -2,6 +2,11 @@
   "name": "otjs",
   "version": "1.0.0",
   "description": "The line-based implementation of operational transform",
+  "homepage": "https://github.com/otjs/ot",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/otjs/ot.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha"
