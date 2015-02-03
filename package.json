@@ -1,5 +1,5 @@
 {
-  "name": "lineot",
+  "name": "otjs",
   "version": "1.0.0",
   "description": "The line-based implementation of operational transform",
   "main": "index.js",
