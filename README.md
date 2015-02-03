@@ -15,6 +15,8 @@ Usage
 -----
 
 ```javascript
+var transform = require('otjs');
+
 var res = transform.transformBatch([
   { type: 'del', line: 0 },
   { type: 'del', line: 0 },
