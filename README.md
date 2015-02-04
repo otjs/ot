@@ -24,9 +24,9 @@ var res = transform.transformBatch([
   { type: 'del', line: 0 }
 ], [
   // Operation "C"
-  { type: 'add', line: 0, content: '0' },
-  { type: 'add', line: 2, content: '2' },
-  { type: 'add', line: 4, content: '4' }
+  { type: 'add', line: 0, text: '0' },
+  { type: 'add', line: 2, text: '2' },
+  { type: 'add', line: 4, text: '4' }
 ]);
 
 expect(res).to.eql([
@@ -37,9 +37,9 @@ expect(res).to.eql([
     { type: 'del', line: 3 }
   ], [
     // Operation "C'"
-    { type: 'add', line: 0, content: '0' },
-    { type: 'add', line: 1, content: '2' },
-    { type: 'add', line: 2, content: '4' }
+    { type: 'add', line: 0, text: '0' },
+    { type: 'add', line: 1, text: '2' },
+    { type: 'add', line: 2, text: '4' }
   ]
 ]);
 

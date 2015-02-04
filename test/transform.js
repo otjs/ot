@@ -8,9 +8,9 @@ describe('transform', function() {
       { type: 'del', line: 0 },
       { type: 'del', line: 0 }
     ], [
-      { type: 'add', line: 0, content: '0' },
-      { type: 'add', line: 2, content: '2' },
-      { type: 'add', line: 4, content: '4' }
+      { type: 'add', line: 0, text: '0' },
+      { type: 'add', line: 2, text: '2' },
+      { type: 'add', line: 4, text: '4' }
     ]);
 
     expect(res).to.eql([
@@ -19,9 +19,9 @@ describe('transform', function() {
         { type: 'del', line: 2 },
         { type: 'del', line: 3 }
       ], [
-        { type: 'add', line: 0, content: '0' },
-        { type: 'add', line: 1, content: '2' },
-        { type: 'add', line: 2, content: '4' }
+        { type: 'add', line: 0, text: '0' },
+        { type: 'add', line: 1, text: '2' },
+        { type: 'add', line: 2, text: '4' }
       ]
     ]);
   });
